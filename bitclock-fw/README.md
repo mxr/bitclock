@@ -11,7 +11,7 @@ Bash shell
 ```fish
 brew install cmake ninja dfu-util python@3.12
 brew reinstall openssl
-git clone -b v5.2.2 --recursive https://github.com/espressif/esp-idf.git
+git clone -b v5.3.4 --recursive https://github.com/espressif/esp-idf.git
 ./install.sh esp32s3
 source export.sh
 ```
@@ -21,7 +21,7 @@ Fish shell
 ```fish
 brew install cmake ninja dfu-util python@3.12
 brew reinstall openssl
-git clone -b v5.2.2 --recursive https://github.com/espressif/esp-idf.git
+git clone -b v5.3.4 --recursive https://github.com/espressif/esp-idf.git
 ./install.fish esp32s3
 source export.fish
 ```
